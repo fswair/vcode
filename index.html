@@ -364,7 +364,7 @@
 
     <script>
         const terminal = document.getElementById('terminal');
-        const promptText = "~/projects/frontier-app $ ";
+        const promptText = "~/projects/foo $ ";
         const command = "vcode run";
         
         function getTimestamp() {
@@ -382,8 +382,8 @@
             { type: 'output', html: `<span class="dim" style="margin-left: 104px;">→ loaded 'postgres-inspector' (v0.8.4)</span>`, delay: 150 },
             { type: 'output', html: `${getTimestamp()} <span class="badge level-warn">WARN</span> Virtual environment not found.`, delay: 400 },
             { type: 'output', html: `${getTimestamp()} <span class="badge level-info">INFO</span> Creating virtual environment <span class="orange">python3.12</span>...`, delay: 600 },
-            { type: 'output', html: `<span class="dim" style="margin-left: 104px;">→ Created at <span class="path">/Users/user/.vcode/envs/default</span></span>`, delay: 200 },
-            { type: 'output', html: `${getTimestamp()} <span class="badge level-success">SUCCESS</span> Runtime ready at <span class="path">/Users/user/projects/frontier-app</span>`, delay: 500 },
+            { type: 'output', html: `<span class="dim" style="margin-left: 104px;">→ Created at <span class="path">/Users/venus/.vcode/envs/default</span></span>`, delay: 200 },
+            { type: 'output', html: `${getTimestamp()} <span class="badge level-success">SUCCESS</span> Runtime ready at <span class="path">/Users/venus/projects/foo</span>`, delay: 500 },
             { type: 'output', html: `<br>${getTimestamp()} <span class="badge level-ready">READY</span> <span class="white">Agent listening. Select a task to begin:</span>`, delay: 600 },
             
             { type: 'menu', delay: 4000 }, 
